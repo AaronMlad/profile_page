@@ -28,7 +28,7 @@ export default function Home() {
             
             <span className={`${spaceGrotesk.className} text-[18px]`}>Connect with me on:</span> <br />
             <div className="flex gap-8 mt-2">
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/AaronMlad" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faXTwitter} 
               className="text-white w-8 h-8 mt-3 
               drop-shadow-[0_0_10px_#000000] 
@@ -36,7 +36,7 @@ export default function Home() {
               transition-all
               duration-300"/>
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/aaronjanrafael.malda" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} 
               className="text-white w-8 h-8 hover:text-gray-300 mt-3 
               drop-shadow-[0_0_10px_#000000] 
@@ -44,7 +44,7 @@ export default function Home() {
               transition-all
               duration-300"/>
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/AaronMlad" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} 
               className="text-white w-8 h-8 hover:text-gray-300 mt-3 
               drop-shadow-[0_0_10px_#000000] 
@@ -52,7 +52,7 @@ export default function Home() {
               transition-all
               duration-300"/>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/aaron-malda-2ab2a430a/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} 
               className="text-white w-8 h-8 hover:text-gray-300 mt-3 
               drop-shadow-[0_0_10px_#000000] 
@@ -74,8 +74,25 @@ export default function Home() {
               <p>On the front-end, I am currently learning NextJS to consume APIs, and build responsive and scalable applications. On the back-end, I am studying PostgreSQL, MySQL, and Docker for database management.</p>
               <p>I firmly believe that test-driven development is the determinant of a complete feature.</p>
               <div className={`${montserrat.className} flex gap-8`}>
-                <button className={`bg-[#ff3131] text-white text-[25px] w-[160px] h-[50px] rounded transition-colors duration-300`}>Projects</button>
-                <button className={`border border-[#ff3131] w-[187px] h-[50px] rounded transition-colors duration-300`}>Download Resume</button>
+                <button 
+                className={`bg-[#ff3131] text-white text-[20px] w-[160px] h-[50px] rounded 
+                hover:shadow-[0_0_15px_#ff3131]
+                hover:scale-105
+                active:scale-100
+                active:bg-[#8C1D18]
+                transition-all
+                duration-200`}>
+                View
+                Projects</button>
+                <button 
+                className={`border border-[#ff3131] w-[187px] h-[50px] rounded
+                hover:scale-105
+                active:scale-100
+                active:bg-[#8C1D18]
+                active:border-none
+                transition-all
+                duration-200`}>
+                Download Resume</button>
               </div>
             </div>
           </div>
